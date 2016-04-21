@@ -1,0 +1,13 @@
+E:\Dropbox\!Coding\All_in_one\Drake\Drake\bin\Debug\Drake.exe.config
+E:\Dropbox\!Coding\All_in_one\Drake\Drake\bin\Debug\Drake.exe
+E:\Dropbox\!Coding\All_in_one\Drake\Drake\bin\Debug\Drake.pdb
+E:\Dropbox\!Coding\All_in_one\Drake\Drake\obj\Debug\MainWindow.baml
+E:\Dropbox\!Coding\All_in_one\Drake\Drake\obj\Debug\MainWindow.g.cs
+E:\Dropbox\!Coding\All_in_one\Drake\Drake\obj\Debug\App.g.cs
+E:\Dropbox\!Coding\All_in_one\Drake\Drake\obj\Debug\Drake_MarkupCompile.cache
+E:\Dropbox\!Coding\All_in_one\Drake\Drake\obj\Debug\Drake.g.resources
+E:\Dropbox\!Coding\All_in_one\Drake\Drake\obj\Debug\Drake.Properties.Resources.resources
+E:\Dropbox\!Coding\All_in_one\Drake\Drake\obj\Debug\Drake.csproj.GenerateResource.Cache
+E:\Dropbox\!Coding\All_in_one\Drake\Drake\obj\Debug\Drake.exe
+E:\Dropbox\!Coding\All_in_one\Drake\Drake\obj\Debug\Drake.pdb
+E:\Dropbox\!Coding\All_in_one\Drake\Drake\obj\Debug\Drake.csprojResolveAssemblyReference.cache

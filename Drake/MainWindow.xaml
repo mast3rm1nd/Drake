@@ -1,0 +1,27 @@
+﻿<Window x:Class="Drake.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Drake's equation calculator" Height="328" Width="432" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="38" Margin="33,20,0,0" VerticalAlignment="Top" Width="353" Source="Resources/equation.png"/>
+        <Label Content="Матчасть:" HorizontalAlignment="Left" Margin="30,58,0,0" VerticalAlignment="Top"/>
+        <Label Content="Уравнение Дрейка"  HorizontalAlignment="Left" Margin="94,58,0,0" VerticalAlignment="Top" Width="auto" Cursor="Hand" Foreground="{DynamicResource {x:Static SystemColors.HotTrackBrushKey}}" MouseLeftButtonDown="Label_MouseLeftButtonDown"/>
+        <Label Content="R:" HorizontalAlignment="Left" Margin="30,84,0,0" VerticalAlignment="Top"/>
+        <Label Content="fp:" HorizontalAlignment="Left" Margin="30,110,0,0" VerticalAlignment="Top"/>
+        <Label Content="ne:" HorizontalAlignment="Left" Margin="28,137,0,0" VerticalAlignment="Top"/>
+        <Label Content="fl:" HorizontalAlignment="Left" Margin="28,167,0,0" VerticalAlignment="Top"/>
+        <Label Content="fi:" HorizontalAlignment="Left" Margin="28,195,0,0" VerticalAlignment="Top"/>
+        <Label Content="fc:" HorizontalAlignment="Left" Margin="28,223,0,0" VerticalAlignment="Top"/>
+        <Label Content="L:" HorizontalAlignment="Left" Margin="29,254,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TextBox_R" HorizontalAlignment="Left" Height="23" Margin="55,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="76" Text="10" HorizontalContentAlignment="Center" MaxLines="1"/>
+        <TextBox x:Name="TextBox_fp" HorizontalAlignment="Left" Height="23" Margin="55,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="76" HorizontalContentAlignment="Center" MaxLines="1" Text="0,5"/>
+        <TextBox x:Name="TextBox_ne" HorizontalAlignment="Left" Height="23" Margin="55,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="76" HorizontalContentAlignment="Center" MaxLines="1" Text="2"/>
+        <TextBox x:Name="TextBox_fl" HorizontalAlignment="Left" Height="23" Margin="55,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="76" HorizontalContentAlignment="Center" MaxLines="1" Text="1"/>
+        <TextBox x:Name="TextBox_fi" HorizontalAlignment="Left" Height="23" Margin="55,198,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="76" HorizontalContentAlignment="Center" MaxLines="1" Text="0,01"/>
+        <TextBox x:Name="TextBox_fc" HorizontalAlignment="Left" Height="23" Margin="55,226,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="76" HorizontalContentAlignment="Center" MaxLines="1" Text="0,01"/>
+        <TextBox x:Name="TextBox_L" HorizontalAlignment="Left" Height="23" Margin="55,254,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="76" HorizontalContentAlignment="Center" MaxLines="1" Text="10000"/>
+        <Button x:Name="Button_Calculate" Content="Посчитать" HorizontalAlignment="Left" Margin="159,167,0,0" VerticalAlignment="Top" Width="75" Click="Button_Calculate_Click"/>
+        <Label x:Name="Label_Answer" Content="" HorizontalAlignment="Left" Margin="239,165,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
